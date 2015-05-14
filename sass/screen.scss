@@ -2,15 +2,8 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
+ 
 @import "compass/reset";
-
-
-
-
-
-
-
 
 /*
  * SMACSS + SCSS starter v2.0
@@ -30,29 +23,15 @@
 @import "compass/css3/images";
 
 /* Tools */
-
-
-
-
 @import "tools/functions";
 @import "tools/site-settings";
 @import "tools/mixins";
 @import "tools/helpers";
 
-
-
-
 /* Base */
 @import "base/normalize";
 @import "base/base";
 @import "base/form";
-
-
-
-
-
-
-
 
 /* Fonts */
 //@import "fonts/...";
@@ -65,5 +44,5 @@
 
 /* Modules */
 @import "modules/btn";
-@import "modules/icons";
-//@import "modules/animations";
+//@import "modules/icons";
+@import "modules/animations";
